@@ -1,17 +1,16 @@
+// ans.back() -> access the last element
 class Solution {
 public:
     string removeDuplicates(string s) {
-        int i =0;
-        while(i<s.size()){
-            if(s[i] == s[i+1]){
-                s.erase(i,2);
-                if(i > 0){
-                    i--;
-                }
-            }else{
-                i++;
-            }
-        }
-        return s;
+       string ans;
+
+       for(char ch : s){
+           if (!ans.empty() && ans.back() == ch) { 
+               ans.pop_back();
+           } else {
+               ans.push_back(ch);
+           }
+       }
+       return ans;
     }
 };
