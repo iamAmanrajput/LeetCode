@@ -1,35 +1,32 @@
 class Solution {
 public:
-    void addRe(string& num1, int p1, string& num2, int p2, int carry,
-               string& ans) {
+    void solve(string& num1, int a, string& num2, int b, string& ans, int& carry) {
         // base case
-
-        if (p1 < 0 && p2 < 0) {
-            if (carry != 0) {
-                ans.push_back(carry + '0');
-            }
+        if (a < 0 && b < 0 && carry == 0) {
             return;
         }
 
-        // solving one case
-        int n1 = (p1 >= 0 ? num1[p1] : '0') - '0';
-        int n2 = (p2 >= 0 ? num2[p2] : '0') - '0';
-        int csum = n1 + n2 + carry;
-        int digit = csum % 10;
-        carry = csum / 10;
+        int firstnum = a < 0 ? 0 : num1[a] - '0';
+        int secondnum = b < 0 ? 0 : num2[b] - '0';
 
-        ans.push_back(digit + '0');
+        int finalnum = firstnum + secondnum + carry;
+        int lastdig = finalnum % 10;
+        carry = finalnum / 10;
 
-        addRe(num1, p1 - 1, num2, p2 - 1, carry, ans);
+        ans.push_back(lastdig + '0');
+
+        solve(num1, a - 1, num2, b - 1, ans, carry);
     }
 
     string addStrings(string num1, string num2) {
-
+        int a = num1.size() - 1;
+        int b = num2.size() - 1;
         string ans = "";
-        addRe(num1, num1.size() - 1, num2, num2.size() - 1, 0, ans);
+        int carry = 0;
 
-        reverse(ans.begin(),
-                ans.end()); // reverse the output because we add ans reversely
+        solve(num1, a, num2, b, ans, carry);
+
+        reverse(ans.begin(), ans.end());
         return ans;
     }
 };
