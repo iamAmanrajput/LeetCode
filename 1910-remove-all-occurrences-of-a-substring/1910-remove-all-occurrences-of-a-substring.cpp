@@ -1,14 +1,24 @@
 class Solution {
 public:
-    string removeOccurrences(string s, string part) {
-        int pos = s.find(part);
 
-        while (pos != string::npos) { // Keep removing while part exists
-             s.erase(pos, part.length());
-             pos = s.find(part);
-           
-        }
+void removeocc(string &s,string &part){
+
+    int found = s.find(part);
+    if(found != string::npos){
+        // string found , remove it
+       string left_part = s.substr(0,found);
+       string right_part = s.substr(found+part.size(),s.size());
+       s = left_part + right_part;
+       removeocc(s,part);
+    }else{
+        //base case -> no substr found;
+        return;
+    }
+}
+
+    string removeOccurrences(string s, string part) {
         
-        return s; // Return the modified string
+        removeocc(s,part);
+        return s;
     }
 };
