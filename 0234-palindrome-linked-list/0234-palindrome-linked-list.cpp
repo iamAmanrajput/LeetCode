@@ -10,45 +10,48 @@
  */
 class Solution {
 public:
-    ListNode* reverseNode(ListNode*& prev, ListNode*& curr) {
-        if(curr == NULL){
-            return prev;
+    ListNode* reverseNode(ListNode* head) {
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        while (curr != NULL) {
+            ListNode* forward = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = forward;
         }
-        ListNode* forward = curr->next;
-        curr->next = prev;
-        return reverseNode(curr,forward);
+        return prev;
     }
 
     bool isPalindrome(ListNode* head) {
-        if (head == NULL) {
-            return false;
-        }
-        if (head->next == NULL) {
-            return true;
-        }
+        if (!head || !head->next) return true;
 
+        // Find middle (slow-fast method)
         ListNode* slow = head;
-        ListNode* fast = head->next;
-        ListNode* temp1 = head;
-
+        ListNode* fast = head;
         while (fast && fast->next) {
-            fast = fast->next->next;
             slow = slow->next;
+            fast = fast->next->next;
         }
 
-        ListNode* prev = NULL;
-        ListNode* curr = slow->next;
-        ListNode* temp2 = reverseNode(prev,curr);
-        
-        while(temp2 != NULL){
-            if(temp1->val != temp2->val){
-                return false;
+        // Reverse second half
+        ListNode* secondHalf = reverseNode(slow);
+        ListNode* copySecond = secondHalf; // For restoring later
+
+        // Compare first half & second half
+        ListNode* firstHalf = head;
+        bool palindrome = true;
+        while (secondHalf != NULL) {
+            if (firstHalf->val != secondHalf->val) {
+                palindrome = false;
+                break;
             }
-            temp2 = temp2->next;
-            temp1 = temp1->next;
+            firstHalf = firstHalf->next;
+            secondHalf = secondHalf->next;
         }
 
-        return true;
-        
+        // Restore the list to original form
+        reverseNode(copySecond);
+
+        return palindrome;
     }
 };
