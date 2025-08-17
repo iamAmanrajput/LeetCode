@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+    vector<int> nodesBetweenCriticalPoints(ListNode* &head) {
         vector<int> ans = {-1, -1}; // minDis , maxDis
         ListNode* prev = head;
         if (!prev) {
