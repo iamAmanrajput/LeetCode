@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int longestValidParentheses(string s) {
+    int longestValidParentheses(string &s) {
 
         if(s.length() == 0){
             return 0;
