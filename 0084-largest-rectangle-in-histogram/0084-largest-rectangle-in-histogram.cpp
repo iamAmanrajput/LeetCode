@@ -48,17 +48,14 @@ public:
 
         int maxArea = INT_MIN;
 
-        for(int i =0;i<next.size();i++){
-            if(next[i]== -1){
+        for (int i = 0; i < heights.size(); i++) {
+            int length = heights[i];
+            if (next[i] == -1) {
                 next[i] = next.size();
             }
-        }
-
-        for(int i =0;i<heights.size();i++){
-            int length = heights[i];
-            int width = next[i] - prev[i] -1;
+            int width = next[i] - prev[i] - 1;
             int area = length * width;
-            maxArea = max(maxArea,area);
+            maxArea = max(maxArea, area);
         }
 
         return maxArea;
