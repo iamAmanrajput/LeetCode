@@ -1,17 +1,35 @@
 class Solution {
 public:
     bool isValid(string s) {
-        if (s.size() == 0) {
-            return true;
-        }
-
-        string word = "abc";
-        int pos = s.find(word);
-        if (pos != string::npos) {
-            s.erase(pos, word.length());
-            return isValid(s);
-        } else {
+        if (s[0] != 'a') {
             return false;
         }
+
+        stack<char> st;
+
+        for (char ch : s) {
+            if (ch == 'a') {
+                st.push(ch);
+            } else if (ch == 'b') {
+                if (!st.empty() && st.top() == 'a') {
+                    st.push(ch);
+                } else {
+                    return false;
+                }
+            } else {
+                if (!st.empty() && st.top() == 'b') {
+                    st.pop();
+                    if (!st.empty() && st.top() == 'a') {
+                        st.pop();
+                    } else {
+                        return false;
+                    }
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        return st.empty();
     }
 };
