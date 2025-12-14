@@ -1,15 +1,16 @@
 class Solution {
 public:
-    string decodeString(string s) {
+    string decodeString(string &s) {
         stack<string> st;
         for (auto ch : s) {
             if (ch == ']') {
                 string stringToRepeat = "";
-                while (!st.empty() && !isdigit(st.top()[0])) {
+                while (!st.empty() && st.top() != "[") {
                     string top = st.top();
-                    stringToRepeat += top == "[" ? "" : top;
+                    stringToRepeat += top;
                     st.pop();
                 }
+                st.pop();
                 string numericTimes = "";
                 while (!st.empty() && isdigit(st.top()[0])) {
                     numericTimes += st.top();
