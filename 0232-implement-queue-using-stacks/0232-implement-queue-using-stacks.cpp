@@ -1,46 +1,55 @@
-#include <stack>
-using namespace std;
-
 class MyQueue {
 public:
-    stack<int> inStack;
-    stack<int> outStack;
+
+stack<int> s1,s2;
 
     MyQueue() {
-        // constructor
+        
     }
     
-    // Push element x to the back of queue
     void push(int x) {
-        inStack.push(x);
+        s1.push(x);
     }
     
-    // Removes the element from the front of queue and returns it
     int pop() {
-        if (outStack.empty()) {
-            while (!inStack.empty()) {
-                outStack.push(inStack.top());
-                inStack.pop();
+        int pop = -1;
+        if(!s2.empty()){
+           pop = s2.top();
+        }else{
+            while(!s1.empty()){
+                s2.push(s1.top());
+                s1.pop();
             }
+           pop = s2.top();
         }
-        int front = outStack.top();
-        outStack.pop();
+        s2.pop();
+        return pop;
+    }
+    
+    int peek() {
+        int front = -1;
+        if(!s2.empty()){
+            front = s2.top();
+        }else{
+             while(!s1.empty()){
+                s2.push(s1.top());
+                s1.pop();
+            }
+           front = s2.top();
+        }
         return front;
     }
     
-    // Get the front element
-    int peek() {
-        if (outStack.empty()) {
-            while (!inStack.empty()) {
-                outStack.push(inStack.top());
-                inStack.pop();
-            }
-        }
-        return outStack.top();
-    }
-    
-    // Returns whether the queue is empty
     bool empty() {
-        return inStack.empty() && outStack.empty();
+        return s1.empty() && s2.empty();
     }
 };
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue* obj = new MyQueue();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->peek();
+ * bool param_4 = obj->empty();
+ */
