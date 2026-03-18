@@ -12,7 +12,7 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int>& inorder, vector<int>& postorder, int size,
+    TreeNode* solve(vector<int>& inorder, vector<int>& postorder, int& size,
                     int& postIndex, int inorderStart, int inorderEnd,
                     map<int, int>& nodeToIndex) {
 
