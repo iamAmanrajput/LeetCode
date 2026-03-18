@@ -12,36 +12,47 @@
  */
 class Solution {
 public:
-    void sumHelper(TreeNode* root, int& targetSum, int currSum,
-                   vector<int> path, vector<vector<int>>& ans) {
-        // base case
-        if (root == NULL) {
-            return;
-        }
+    // DFS helper function
+    void sumHelper(TreeNode* root, int& targetSum, vector<vector<int>>& ans,
+                   vector<int>& currAns, int currSum) {
 
-        // leaf node
-        if (root->left == NULL && root->right == NULL) {
-            path.push_back(root->val);
-            currSum += root->val;
-            if (currSum == targetSum) {
-                ans.push_back(path);
-            }
+        // Base case: agar node NULL hai to return
+        if (root == NULL)
             return;
-        }
 
-        // include currNode
-        path.push_back(root->val);
+        // Current node ko path me add karo
+        currAns.push_back(root->val);
+
+        // Running sum update karo
         currSum += root->val;
-        sumHelper(root->left, targetSum, currSum, path, ans);
-        sumHelper(root->right, targetSum, currSum, path, ans);
+
+        // Check: agar leaf node hai
+        if (root->left == NULL && root->right == NULL) {
+
+            // Agar sum target ke equal hai to path store karo
+            if (currSum == targetSum) {
+                ans.push_back(currAns);
+            }
+        }
+
+        // Left subtree explore karo
+        sumHelper(root->left, targetSum, ans, currAns, currSum);
+
+        // Right subtree explore karo
+        sumHelper(root->right, targetSum, ans, currAns, currSum);
+
+        // Backtracking:
+        // current node ko path se hatao taaki dusre paths explore ho sake
+        currAns.pop_back();
     }
 
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        vector<vector<int>> ans;
-        int sum = 0;
-        vector<int> temp;
+        vector<vector<int>> ans; // final answer store karega
+        vector<int> currAns;     // current path store karega
 
-        sumHelper(root, targetSum, sum, temp, ans);
+        // DFS start karo with initial sum = 0
+        sumHelper(root, targetSum, ans, currAns, 0);
+
         return ans;
     }
 };
