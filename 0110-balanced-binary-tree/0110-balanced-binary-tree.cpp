@@ -22,7 +22,7 @@ public:
         int leftHeight = height(root->left);
         int rightHeight = height(root->right);
 
-        // Correct condition
+        
         if (isBalance && abs(leftHeight - rightHeight) > 1) {
             isBalance = false;
         }
