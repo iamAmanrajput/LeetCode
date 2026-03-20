@@ -6,33 +6,30 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right)
- *         : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
-    // Height function jo diameter ko reference se update karta hai
-    int height(TreeNode* root, int &diameter) {
-        // Base case
+    int Diameter = 0;
+    int height(TreeNode* root) {
         if (root == NULL) {
             return 0;
         }
 
-        // Left aur right subtree ki height
-        int leftHeight = height(root->left, diameter);
-        int rightHeight = height(root->right, diameter);
+        int leftHeight = height(root->left);
+        int rightHeight = height(root->right);
 
-        // Current node par diameter update
-        diameter = max(diameter, leftHeight + rightHeight);
+        // Diameter
+        int currDiameter = leftHeight + rightHeight;
 
-        // Height return
+        Diameter = max(currDiameter, Diameter);
+
         return max(leftHeight, rightHeight) + 1;
     }
-
     int diameterOfBinaryTree(TreeNode* root) {
-        int diameter = 0;   // Local variable (LeetCode preferred)
-        height(root, diameter);
-        return diameter;
+        height(root);
+        return Diameter;
     }
 };
