@@ -15,12 +15,16 @@ public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
 
         // Case 1: Both nodes are NULL
-        if (p == nullptr && q == nullptr) {
+        if (p == NULL && q == NULL) {
             return true;
         }
 
         // Case 2: One is NULL, the other is not
-        if (p == nullptr || q == nullptr) {
+        if (p == NULL && q != NULL) {
+            return false;
+        }
+
+        if (p != NULL && q == NULL) {
             return false;
         }
 
