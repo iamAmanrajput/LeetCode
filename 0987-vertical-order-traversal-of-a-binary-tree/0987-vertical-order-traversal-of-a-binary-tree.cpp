@@ -23,7 +23,7 @@ public:
             auto front = q.front();
             q.pop();
             TreeNode*& node = front.first;
-            auto coordinate = front.second;
+            auto& coordinate = front.second;
             int& row = coordinate.first;
             int& col = coordinate.second;
 
