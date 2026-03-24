@@ -20,7 +20,7 @@ public:
         map<int, map<int, multiset<int>>> mp; // col -> {row: [x,y,z...]}
 
         while (!q.empty()) {
-            auto& front = q.front();
+            auto front = q.front();
             q.pop();
             TreeNode*& node = front.first;
             auto& coordinate = front.second;
