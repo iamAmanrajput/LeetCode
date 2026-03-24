@@ -18,6 +18,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Depth-First Search
@@ -28,6 +29,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
@@ -41,6 +43,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Array
