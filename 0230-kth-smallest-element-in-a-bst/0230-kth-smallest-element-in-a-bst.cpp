@@ -12,26 +12,18 @@
  */
 class Solution {
 public:
-    int kthSmallest(TreeNode* root, int k) {
-        int ans = -1;
-        solve(root, k, ans);
-        return ans;
-    }
+    int kthSmallest(TreeNode* root, int& k) {
+        if (!root) return -1;
 
-    void solve(TreeNode* root, int &k, int &ans) {
-        if (!root) return;
+        // Left subtree
+        int left = kthSmallest(root->left, k);
+        if (k == 0) return left;
 
-        // Left
-        solve(root->left, k, ans);
-
-        // Process current node
+        // Current node
         k--;
-        if (k == 0) {
-            ans = root->val;
-            return;
-        }
+        if (k == 0) return root->val;
 
-        // Right (only if answer not found yet)
-        solve(root->right, k, ans);
+        // Right subtree
+        return kthSmallest(root->right, k);
     }
 };
