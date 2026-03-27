@@ -19,6 +19,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -34,6 +35,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0543-diameter-of-binary-tree/) | Easy |
@@ -50,6 +52,7 @@ Leetcode Solutions to the the problems i solved
 | [0110-balanced-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/iamAmanrajput/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0437-path-sum-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/0437-path-sum-iii/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -88,6 +91,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0098-validate-binary-search-tree/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
