@@ -70,6 +70,7 @@ Leetcode Solutions to the the problems i solved
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -83,6 +84,7 @@ Leetcode Solutions to the the problems i solved
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -95,6 +97,7 @@ Leetcode Solutions to the the problems i solved
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -110,4 +113,12 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 <!---LeetCode Topics End-->
