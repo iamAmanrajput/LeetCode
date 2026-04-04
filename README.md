@@ -121,4 +121,8 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0177-nth-highest-salary](https://github.com/iamAmanrajput/LeetCode/tree/main/0177-nth-highest-salary/) | Medium |
 <!---LeetCode Topics End-->
