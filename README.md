@@ -81,6 +81,7 @@ Leetcode Solutions to the the problems i solved
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -116,6 +117,7 @@ Leetcode Solutions to the the problems i solved
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
@@ -125,4 +127,12 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0177-nth-highest-salary](https://github.com/iamAmanrajput/LeetCode/tree/main/0177-nth-highest-salary/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
 <!---LeetCode Topics End-->
