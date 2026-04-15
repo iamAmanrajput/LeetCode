@@ -3,11 +3,9 @@ public:
 
     // Function to calculate Fibonacci using Space Optimized DP
     int solveUsingTabulationSpaceOptimized(int n) {
-        
-        // Base case:
-        // If n = 0, Fibonacci value is 0
-        if (n == 0) {
-            return 0;
+
+        if (n == 0 || n == 1) {
+            return n;
         }
 
         // prev represents fib(0)
