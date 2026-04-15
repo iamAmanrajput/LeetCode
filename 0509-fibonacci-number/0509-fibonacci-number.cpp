@@ -1,33 +1,42 @@
 class Solution {
 public:
-    int solveUsingTabulation(int n) {
 
-        // Step 1: Create a DP array of size (n + 1)
-        // This array will store Fibonacci values from 0 to n
-        vector<int> dp(n + 1, -1);
-
-        // Step 2: Initialize base cases
-        // We already know:
-        // fib(0) = 0 and fib(1) = 1
-        dp[0] = 0;
+    // Function to calculate Fibonacci using Space Optimized DP
+    int solveUsingTabulationSpaceOptimized(int n) {
+        
+        // Base case:
+        // If n = 0, Fibonacci value is 0
         if (n == 0) {
-            return dp[0];
+            return 0;
         }
-        dp[1] = 1;
 
-        // Step 3: Fill the DP array from index 2 to n
-        // Each value depends on the previous two values
+        // prev represents fib(0)
+        int prev = 0;
+
+        // curr represents fib(1)
+        int curr = 1;
+
+        // Variable to store current answer
+        int ans;
+
+        // Loop from 2 to n
+        // Each Fibonacci number = sum of previous two numbers
         for (int i = 2; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            
+            // Calculate next Fibonacci number
+            ans = curr + prev;
+
+            // Shift values for next iteration
+            prev = curr;
+            curr = ans;
         }
 
-        // Step 4: Return the final answer
-        // The nth Fibonacci number is stored at dp[n]
-        return dp[n];
+        // Final answer stored in curr
+        return curr;
     }
 
     int fib(int n) {
-        // Call the tabulation function and return the result
-        return solveUsingTabulation(n);
+        // Call the space optimized function
+        return solveUsingTabulationSpaceOptimized(n);
     }
 };
