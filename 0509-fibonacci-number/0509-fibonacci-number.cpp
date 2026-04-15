@@ -1,7 +1,7 @@
 class Solution {
 public:
     int solveUsingTabulation(int n) {
-        
+
         // Step 1: Create a DP array of size (n + 1)
         // This array will store Fibonacci values from 0 to n
         vector<int> dp(n + 1, -1);
@@ -10,6 +10,9 @@ public:
         // We already know:
         // fib(0) = 0 and fib(1) = 1
         dp[0] = 0;
+        if (n == 0) {
+            return dp[0];
+        }
         dp[1] = 1;
 
         // Step 3: Fill the DP array from index 2 to n
