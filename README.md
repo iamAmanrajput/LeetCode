@@ -71,6 +71,7 @@ Leetcode Solutions to the the problems i solved
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
@@ -180,6 +181,7 @@ Leetcode Solutions to the the problems i solved
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
