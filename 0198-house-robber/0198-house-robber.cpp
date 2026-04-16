@@ -1,24 +1,39 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int index, vector<int>& dp) {
-        if (index >= nums.size()) {
-            return 0;
-        };
+     int rob(vector<int>& nums) {
 
-        if (dp[index] != -1) {
-            return dp[index];
+        int n = nums.size();
+
+        // Edge case: if array is empty
+        if (n == 0) return 0;
+
+        // step 1: create dp array
+        vector<int> dp(n, -1);
+
+        // step 2: base case
+        dp[n - 1] = nums[n - 1];
+
+        // step 3: fill dp array from right to left
+        for (int index = n - 2; index >= 0; index--) {
+
+            int tempAns = 0;
+
+            // safe check for index + 2
+            if (index + 2 < n) {
+                tempAns = dp[index + 2];
+            }
+
+            // include current house
+            int include = nums[index] + tempAns;
+
+            // exclude current house
+            int exclude = 0 + dp[index + 1];
+
+            // store maximum
+            dp[index] = max(include, exclude);
         }
 
-        int include = nums[index] + solve(nums, index + 2, dp);
-        int exclude = 0 + solve(nums, index + 1, dp);
-
-        dp[index] = max(include, exclude);
-        return dp[index];
-    }
-
-    int rob(vector<int>& nums) {
-        vector<int> dp(nums.size() + 1, -1);
-        int index = 0;
-        return solve(nums, index, dp);
+        // final answer
+        return dp[0];
     }
 };
