@@ -1,39 +1,41 @@
 class Solution {
 public:
-     int rob(vector<int>& nums) {
+    int rob(vector<int>& nums) {
 
         int n = nums.size();
 
         // Edge case: if array is empty
         if (n == 0) return 0;
 
-        // step 1: create dp array
-        vector<int> dp(n, -1);
+        // Edge case: if only one house
+        if (n == 1) return nums[0];
 
-        // step 2: base case
-        dp[n - 1] = nums[n - 1];
+        // prev → dp[index + 1]
+        // next → dp[index + 2]
+        int prev = nums[n - 1]; // last house
+        int next = 0;           // beyond last (0)
+        int curr = 0;
 
-        // step 3: fill dp array from right to left
+        // Traverse from right to left
         for (int index = n - 2; index >= 0; index--) {
 
-            int tempAns = 0;
+            // Include current house
+            // nums[index] + dp[index + 2]
+            int include = nums[index] + next;
 
-            // safe check for index + 2
-            if (index + 2 < n) {
-                tempAns = dp[index + 2];
-            }
+            // Exclude current house
+            // dp[index + 1]
+            int exclude = prev;
 
-            // include current house
-            int include = nums[index] + tempAns;
+            // Take maximum
+            curr = max(include, exclude);
 
-            // exclude current house
-            int exclude = 0 + dp[index + 1];
-
-            // store maximum
-            dp[index] = max(include, exclude);
+            // Shift values for next iteration
+            next = prev;
+            prev = curr;
         }
 
-        // final answer
-        return dp[0];
+        // Final answer stored in curr
+        return curr;
     }
 };
