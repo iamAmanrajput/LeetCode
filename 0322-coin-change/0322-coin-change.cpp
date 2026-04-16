@@ -1,51 +1,37 @@
 class Solution {
 public:
-    int solve(vector<int>& coins, int amount, vector<int>& dp) {
-
-        // Base case
-        if (amount == 0) {
-            return 0;
-        }
-
-        // If amount becomes negative → invalid
-        if (amount < 0) {
-            return INT_MAX;
-        }
-
-        // if ans already exist
-        if (dp[amount] != -1) {
-            return dp[amount];
-        }
-
-        int mini = INT_MAX;
-
-        for (int i = 0; i < coins.size(); i++) {
-
-            // recursive call
-            int recAns = solve(coins, amount - coins[i], dp);
-
-            // only update if valid answer
-            if (recAns != INT_MAX) {
-                int ans = 1 + recAns;
-                mini = min(mini, ans);
-            }
-        }
-        dp[amount] = mini;
-        return dp[amount];
-    }
-
     int coinChange(vector<int>& coins, int amount) {
 
-        int n = amount;
-        vector<int> dp(n + 1, -1);
+        // Step 1: DP array initialize with INT_MAX
+        vector<int> dp(amount + 1, INT_MAX);
 
-        int ans = solve(coins, amount, dp);
+        // Step 2: Base case
+        dp[0] = 0;
 
-        // If no solution found
-        if (ans == INT_MAX) {
+        // Step 3: Build answer from 1 → amount
+        for (int value = 1; value <= amount; value++) {
+
+            int mini = INT_MAX; // maintain minimum for current value
+
+            for (int i = 0; i < coins.size(); i++) {
+
+                // Check valid and avoid overflow
+                if (value - coins[i] >= 0 && dp[value - coins[i]] != INT_MAX) {
+
+                    int ans = 1 + dp[value - coins[i]];
+                    mini = min(mini, ans);
+                }
+            }
+
+            // Store result in dp
+            dp[value] = mini;
+        }
+
+        // If not possible
+        if (dp[amount] == INT_MAX) {
             return -1;
         }
 
-        return ans;
+        return dp[amount];
     }
 };
