@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int minDistance(string a, string b) {
+    int minDistance(string& a, string& b) {
         vector<vector<int>> dp(a.length() + 1, vector<int>(b.length() + 1, -1));
 
         for (int col = 0; col <= b.length(); col++) {
