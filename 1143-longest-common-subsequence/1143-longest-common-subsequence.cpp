@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int solve(string& text1, string& text2, int i, int j,
+    int solve(string& text1, string& text2, int& i, int& j,
               vector<vector<int>>& dp) {
         // base case
         if (i >= text1.length()) {
