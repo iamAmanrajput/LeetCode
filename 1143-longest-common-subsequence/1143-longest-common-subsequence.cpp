@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int longestCommonSubsequence(string text1, string text2) {
+    int longestCommonSubsequence(string& text1, string& text2) {
         vector<int> curr(text1.length() + 1, 0);
         vector<int> next(text1.length() + 1, 0);
 
