@@ -170,6 +170,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 ## Trie
@@ -187,6 +188,7 @@ Leetcode Solutions to the the problems i solved
 | [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
+| [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
