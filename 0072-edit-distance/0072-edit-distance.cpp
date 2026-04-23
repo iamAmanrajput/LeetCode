@@ -4,10 +4,6 @@ public:
         vector<int> next(a.length() + 1, 0);
         vector<int> curr(a.length() + 1, 0);
 
-        // for (int col = 0; col <= b.length(); col++) {
-        //     dp[a.length()][col] = b.length() - col;
-        // }
-
         for (int row = 0; row <= a.length(); row++) {
             next[row] = a.length() - row;
         }
