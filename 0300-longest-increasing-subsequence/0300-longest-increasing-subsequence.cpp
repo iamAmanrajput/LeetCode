@@ -1,24 +1,21 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int>currRow(nums.size() + 1,0);
-        vector<int>nextRow(nums.size() + 1,0);
-
-
-        for (int i = nums.size() - 1; i >= 0; i--) {
-            for (int j = i - 1; j >= -1; j--) {
-
-                int include = 0;
-                if (j == -1 || nums[j] < nums[i]) {
-                    include = 1 + nextRow[i + 1];
-                }
-                int exclude = 0 + nextRow[j + 1];
-
-                currRow[j + 1] = max(include, exclude);
+        vector<int> ans;
+        // initial state
+        ans.push_back(nums[0]);
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > ans.back()) {
+                ans.push_back(nums[i]);
+            } else {
+                // just bada number exist karta hai
+                int index =
+                    lower_bound(ans.begin(), ans.end(), nums[i]) - ans.begin();
+                // replace
+                ans[index] = nums[i];
             }
-            nextRow = currRow;
         }
 
-        return nextRow[0];
+        return ans.size();
     }
 };
