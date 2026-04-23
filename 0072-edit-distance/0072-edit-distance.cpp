@@ -1,32 +1,37 @@
 class Solution {
 public:
     int minDistance(string& a, string& b) {
-        vector<vector<int>> dp(a.length() + 1, vector<int>(b.length() + 1, -1));
+        vector<int> next(a.length() + 1, 0);
+        vector<int> curr(a.length() + 1, 0);
 
-        for (int col = 0; col <= b.length(); col++) {
-            dp[a.length()][col] = b.length() - col;
-        }
+        // for (int col = 0; col <= b.length(); col++) {
+        //     dp[a.length()][col] = b.length() - col;
+        // }
 
         for (int row = 0; row <= a.length(); row++) {
-            dp[row][b.length()] = a.length() - row;
+            next[row] = a.length() - row;
         }
 
-        for (int i = a.length() - 1; i >= 0; i--) {
-            for (int j = b.length() - 1; j >= 0; j--) {
+        for (int j = b.length() - 1; j >= 0; j--) {
+            // har new column ke last cell me ans insert karo
+            curr[a.length()] = b.length() - j;
+            for (int i = a.length() - 1; i >= 0; i--) {
+
                 int ans = 0;
                 if (a[i] == b[j]) {
-                    ans = 0 + dp[i + 1][j + 1];
+                    ans = 0 + next[i + 1];
                 } else {
-                    int replace = 1 + dp[i + 1][j + 1];
-                    int insert = 1 + dp[i][j + 1];
-                    int remove = 1 + dp[i + 1][j];
+                    int replace = 1 + next[i + 1];
+                    int insert = 1 + next[i];
+                    int remove = 1 + curr[i + 1];
 
                     ans = min(insert, min(remove, replace));
                 }
-                dp[i][j] = ans;
+                curr[i] = ans;
             }
+            next = curr;
         }
 
-        return dp[0][0];
+        return next[0];
     }
 };
