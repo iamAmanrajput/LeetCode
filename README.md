@@ -76,6 +76,7 @@ Leetcode Solutions to the the problems i solved
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
@@ -198,6 +199,7 @@ Leetcode Solutions to the the problems i solved
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
