@@ -16,11 +16,12 @@ public:
         int target = totalSum / 2;
         int currSum = 0;
 
-        vector<vector<int>> dp(nums.size() + 2, vector<int>(target + 1, 0));
+        vector<int> curr(target + 1, 0);
+        vector<int> next(target + 1, 0);
 
-        for (int row = 0; row <= nums.size(); row++) {
-            dp[row][target] = 1;
-        }
+        curr[target] = 1;
+        next[target] = 1;
+
 
         int n = nums.size();
 
@@ -28,15 +29,16 @@ public:
             for (int s = target; s >= 0; s--) {
                 bool include = 0;
                 if (s + nums[idx] <= target) {
-                include = dp[idx + 1][s + nums[idx]];
+                include = next[s + nums[idx]];
                 }
 
-                bool exclude = dp[idx + 1][s];
+                bool exclude = next[s];
 
-                dp[idx][s] = (include || exclude);
+                curr[s] = (include || exclude);
             }
+            next = curr;
         }
 
-        return dp[0][0];
+        return next[0];
     }
 };
