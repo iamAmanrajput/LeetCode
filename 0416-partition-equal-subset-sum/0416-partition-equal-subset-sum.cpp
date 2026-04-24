@@ -1,41 +1,42 @@
 class Solution {
 public:
-    bool check(vector<int>& nums, int i, int target, vector<vector<int>>& dp) {
-
-        if (target == 0) return true;
-        if (i >= nums.size()) return false;
-
-        // already computed
-        if (dp[i][target] != -1) {
-            return dp[i][target];
-        }
-
-        bool include = false;
-        if (target >= nums[i]) {
-            include = check(nums, i + 1, target - nums[i], dp);
-        }
-
-        bool exclude = check(nums, i + 1, target, dp);
-
-        return dp[i][target] = include || exclude;
-    }
-
     bool canPartition(vector<int>& nums) {
+        int index = 0;
         int totalSum = 0;
 
-        for (int num : nums) {
-            totalSum += num;
+        for (int i = 0; i < nums.size(); i++) {
+            totalSum += nums[i];
         }
 
-        // odd check
-        if (totalSum & 1) return false;
+        if (totalSum & 1) {
+            // odd cannot be partitioned
+            return false;
+        }
 
         int target = totalSum / 2;
+        int currSum = 0;
+
+        vector<vector<int>> dp(nums.size() + 2, vector<int>(target + 1, 0));
+
+        for (int row = 0; row <= nums.size(); row++) {
+            dp[row][target] = 1;
+        }
+
         int n = nums.size();
 
-        // dp init with -1
-        vector<vector<int>> dp(n, vector<int>(target + 1, -1));
+        for (int idx = n - 1; idx >= 0; idx--) {
+            for (int s = target; s >= 0; s--) {
+                bool include = 0;
+                if (s + nums[idx] <= target) {
+                include = dp[idx + 1][s + nums[idx]];
+                }
 
-        return check(nums, 0, target, dp);
+                bool exclude = dp[idx + 1][s];
+
+                dp[idx][s] = (include || exclude);
+            }
+        }
+
+        return dp[0][0];
     }
 };
