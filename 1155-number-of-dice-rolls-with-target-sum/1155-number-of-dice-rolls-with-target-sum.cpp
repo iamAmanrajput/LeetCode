@@ -2,7 +2,7 @@ class Solution {
 public:
     long long int MOD = 1000000007;
 
-    int numRollsToTarget(int n, int k, int target) {
+    int numRollsToTarget(int& n, int& k, int& target) {
         vector<vector<int>> dp(n + 1, vector<int>(target + 1, 0));
         dp[0][0] = 1;
 
