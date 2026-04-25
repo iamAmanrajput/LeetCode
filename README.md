@@ -203,6 +203,7 @@ Leetcode Solutions to the the problems i solved
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1155-number-of-dice-rolls-with-target-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
