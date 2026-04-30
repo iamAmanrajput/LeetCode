@@ -14,17 +14,19 @@ public:
         dfs(i, j + 1, vis, grid, n, m); // right
         dfs(i + 1, j, vis, grid, n, m); // bottom
         dfs(i, j - 1, vis, grid, n, m); // left
-    }
+    };
 
     int numIslands(vector<vector<char>>& grid) {
         int islands = 0;
-        int n = grid.size();
-        int m = grid[0].size();
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        int m = grid.size();    // rows
+        int n = grid[0].size(); // columns
+
+        vector<vector<bool>> vis(m, vector<bool>(n, false));
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1' && !vis[i][j]) {
-                    dfs(i, j, vis, grid, n, m);
+                    dfs(i, j, vis, grid, m, n);
                     islands++;
                 }
             }
