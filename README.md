@@ -80,6 +80,7 @@ Leetcode Solutions to the the problems i solved
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
+| [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 ## Hash Table
@@ -109,6 +110,7 @@ Leetcode Solutions to the the problems i solved
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -224,4 +226,5 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/iamAmanrajput/LeetCode/tree/main/0200-number-of-islands/) | Medium |
+| [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 <!---LeetCode Topics End-->
