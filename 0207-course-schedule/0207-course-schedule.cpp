@@ -1,6 +1,8 @@
 class Solution {
 public:
 
+unordered_map<int,list<int>> adj;
+
     // DFS function to detect cycle
     bool isCycleDFS(int src, vector<bool>& vis, vector<bool>& recPath,
                     vector<vector<int>>& adj) {
@@ -27,13 +29,10 @@ public:
 
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 
-        // Step 1: Build adjacency list
-        vector<vector<int>> adj(numCourses);
-
         for (auto &p : prerequisites) {
-            int a = p[0];
-            int b = p[1];
-            adj[b].push_back(a); // b -> a
+            int v = p[0];
+            int u = p[1];
+            adj[u].push_back(v);
         }
 
         vector<bool> vis(numCourses, false);
