@@ -4,8 +4,7 @@ public:
 unordered_map<int,list<int>> adj;
 
     // DFS function to detect cycle
-    bool isCycleDFS(int src, vector<bool>& vis, vector<bool>& recPath,
-                    vector<vector<int>>& adj) {
+    bool isCycleDFS(int src, vector<bool>& vis, vector<bool>& recPath) {
 
         vis[src] = true;
         recPath[src] = true;
@@ -14,7 +13,7 @@ unordered_map<int,list<int>> adj;
         for (auto v : adj[src]) {
 
             if (!vis[v]) {
-                if (isCycleDFS(v, vis, recPath, adj)) {
+                if (isCycleDFS(v, vis, recPath)) {
                     return true;
                 }
             }
@@ -41,7 +40,7 @@ unordered_map<int,list<int>> adj;
         // Step 2: Check cycle in every component
         for (int i = 0; i < numCourses; i++) {
             if (!vis[i]) {
-                if (isCycleDFS(i, vis, recPath, adj)) {
+                if (isCycleDFS(i, vis, recPath)) {
                     return false; // cycle hai → finish nahi kar sakte
                 }
             }
