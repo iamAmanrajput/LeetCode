@@ -2,13 +2,14 @@ class Solution {
 public:
     unordered_map<int, list<int>> adj;
 
-    bool isCycle(int src, vector<bool>& vis, vector<bool>& recPath) {
+    bool isCycle(int src, vector<bool>& vis, vector<bool>& recPath,
+                 stack<int>& s) {
         vis[src] = true;
         recPath[src] = true;
 
         for (int v : adj[src]) {
             if (!vis[v]) {
-                if (isCycle(v, vis, recPath)) {
+                if (isCycle(v, vis, recPath, s)) {
                     return true;
                 }
             } else if (recPath[v]) {
@@ -16,19 +17,8 @@ public:
             }
         }
         recPath[src] = false;
-        return false;
-    };
-
-    void topologicalSort(int src, vector<bool>& vis, stack<int>& s) {
-        vis[src] = true;
-
-        for (int v : adj[src]) {
-            if (!vis[v]) {
-                topologicalSort(v, vis, s);
-            }
-        }
-
         s.push(src);
+        return false;
     };
 
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -47,7 +37,7 @@ public:
 
         for (int i = 0; i < numCourses; i++) {
             if (!vis[i]) {
-                if (isCycle(i, vis, recPath)) {
+                if (isCycle(i, vis, recPath, s)) {
                     cyclePresent = true;
                 }
             }
@@ -56,14 +46,6 @@ public:
         if (cyclePresent) {
             return ans;
         };
-
-        fill(vis.begin(), vis.end(), false);
-
-        for (int i = 0; i < numCourses; i++) {
-            if (!vis[i]) {
-                topologicalSort(i, vis, s);
-            }
-        }
 
         while (!s.empty()) {
             ans.push_back(s.top());
