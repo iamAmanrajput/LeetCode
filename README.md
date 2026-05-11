@@ -88,6 +88,7 @@ Leetcode Solutions to the the problems i solved
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
+| [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
@@ -146,6 +147,7 @@ Leetcode Solutions to the the problems i solved
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
+| [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
