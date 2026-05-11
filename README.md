@@ -85,6 +85,7 @@ Leetcode Solutions to the the problems i solved
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
+| [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
@@ -142,6 +143,7 @@ Leetcode Solutions to the the problems i solved
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
+| [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
