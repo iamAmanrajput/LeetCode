@@ -86,6 +86,7 @@ Leetcode Solutions to the the problems i solved
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
@@ -98,6 +99,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -130,6 +132,7 @@ Leetcode Solutions to the the problems i solved
 | [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/iamAmanrajput/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
@@ -146,6 +149,7 @@ Leetcode Solutions to the the problems i solved
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
+| [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
@@ -157,6 +161,7 @@ Leetcode Solutions to the the problems i solved
 | [0027-remove-element](https://github.com/iamAmanrajput/LeetCode/tree/main/0027-remove-element/) | Easy |
 | [0283-move-zeroes](https://github.com/iamAmanrajput/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/iamAmanrajput/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
