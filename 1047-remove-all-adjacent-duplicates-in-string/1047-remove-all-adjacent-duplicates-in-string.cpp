@@ -1,16 +1,22 @@
-// ans.back() -> access the last element
 class Solution {
 public:
     string removeDuplicates(string s) {
-       string ans;
+        stack<char> st;
 
-       for(char ch : s){
-           if (!ans.empty() && ans.back() == ch) { 
-               ans.pop_back();
-           } else {
-               ans.push_back(ch);
-           }
-       }
-       return ans;
+        for(char c : s){
+            if(!st.empty() && st.top() == c){
+                st.pop();        // duplicate mila → remove
+            } else {
+                st.push(c);      // nahi mila → push
+            }
+        }
+
+        string result = "";
+        while(!st.empty()){
+            result.push_back(st.top());
+            st.pop();
+        }
+        reverse(result.begin(), result.end());
+        return result;
     }
 };
