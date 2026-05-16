@@ -100,6 +100,7 @@ Leetcode Solutions to the the problems i solved
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/iamAmanrajput/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
+| [1929-concatenation-of-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/iamAmanrajput/LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -289,4 +290,8 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/0496-next-greater-element-i/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1929-concatenation-of-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 <!---LeetCode Topics End-->
