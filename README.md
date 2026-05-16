@@ -97,6 +97,7 @@ Leetcode Solutions to the the problems i solved
 | [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
+| [1470-shuffle-the-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/iamAmanrajput/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
