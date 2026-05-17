@@ -47,6 +47,7 @@ Leetcode Solutions to the the problems i solved
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1306-jump-game-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -97,6 +98,7 @@ Leetcode Solutions to the the problems i solved
 | [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
+| [1306-jump-game-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1470-shuffle-the-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
@@ -138,6 +140,7 @@ Leetcode Solutions to the the problems i solved
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
+| [1306-jump-game-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
