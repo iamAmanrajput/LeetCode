@@ -229,6 +229,7 @@ Leetcode Solutions to the the problems i solved
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0006-zigzag-conversion](https://github.com/iamAmanrajput/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
 | [0014-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
