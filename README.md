@@ -237,6 +237,7 @@ Leetcode Solutions to the the problems i solved
 | [0014-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
+| [0796-rotate-string](https://github.com/iamAmanrajput/LeetCode/tree/main/0796-rotate-string/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/iamAmanrajput/LeetCode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
@@ -310,4 +311,8 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [1929-concatenation-of-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/iamAmanrajput/LeetCode/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
