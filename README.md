@@ -251,11 +251,13 @@ Leetcode Solutions to the the problems i solved
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0204-count-primes](https://github.com/iamAmanrajput/LeetCode/tree/main/0204-count-primes/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -274,6 +276,7 @@ Leetcode Solutions to the the problems i solved
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
