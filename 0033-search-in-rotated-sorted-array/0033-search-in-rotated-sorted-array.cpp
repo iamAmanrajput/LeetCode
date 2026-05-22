@@ -1,65 +1,75 @@
 class Solution {
 public:
-    // Find the pivot point in the rotated sorted array
-    int findPivot(vector<int>& arr) {
+    // Find pivot (largest element index)
+    int findPivot(vector<int>& nums) {
         int s = 0;
-        int e = arr.size() - 1;
+        int e = nums.size() - 1;
 
         while (s <= e) {
             int mid = s + (e - s) / 2;
 
-            // Check if mid is the pivot
-            if (mid < e && arr[mid] > arr[mid + 1]) {
+            // Check if mid itself is pivot
+            if (mid < e && nums[mid] > nums[mid + 1]) {
                 return mid;
             }
 
-            // Check if mid-1 is the pivot
-            if (mid > s && arr[mid - 1] > arr[mid]) {
+            // Check if previous element is pivot
+            if (mid > s && nums[mid - 1] > nums[mid]) {
                 return mid - 1;
             }
 
-            // Adjust search range based on the pivot location
-            if (arr[s] <= arr[mid]) {
+            // Left part sorted -> pivot right me hoga
+            if (nums[s] <= nums[mid]) {
                 s = mid + 1;
             } else {
                 e = mid - 1;
             }
         }
-        return -1; // If no pivot is found, the array is not rotated
+
+        return -1; // Array rotated nahi hai
     }
 
-    // Standard binary search
-    int binarySearch(vector<int>& arr, int s, int e, int target) {
+    // Normal binary search
+    int binarySearch(vector<int>& nums, int s, int e, int target) {
+
         while (s <= e) {
+
             int mid = s + (e - s) / 2;
 
-            if (arr[mid] == target) {
-                return mid; // Return the index if target is found
-            }
+            if (nums[mid] == target)
+                return mid;
 
-            if (arr[mid] < target) {
-                s = mid + 1; // Search right half
-            } else {
-                e = mid - 1; // Search left half
-            }
+            else if (nums[mid] < target)
+                s = mid + 1;
+
+            else
+                e = mid - 1;
         }
-        return -1; // If target is not found
+
+        return -1; // target nahi mila
     }
 
     int search(vector<int>& nums, int target) {
-        // Find the pivot index (index of the smallest element)
-        int pivotIndex = findPivot(nums);
-        
-        // If no pivot found, the array is not rotated (regular sorted array)
-        if (pivotIndex == -1) {
+
+        // Step 1: Find pivot index
+        int pivot = findPivot(nums);
+
+        // Agar pivot = -1
+        // matlab array rotated nahi hai
+        if (pivot == -1) {
             return binarySearch(nums, 0, nums.size() - 1, target);
         }
 
-        // If the target is in the range of the first sorted portion
-        if (target >= nums[0] && target <= nums[pivotIndex]) {
-            return binarySearch(nums, 0, pivotIndex, target);
+        // Step 2:
+        // Check target first sorted half me hai ya nahi
+
+        if (target >= nums[0] && target <= nums[pivot]) {
+
+            // Search in first half
+            return binarySearch(nums, 0, pivot, target);
         }
-        // If the target is in the range of the second sorted portion
-        return binarySearch(nums, pivotIndex + 1, nums.size() - 1, target);
+
+        // Otherwise search second half
+        return binarySearch(nums, pivot + 1, nums.size() - 1, target);
     }
 };
