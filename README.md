@@ -146,6 +146,7 @@ Leetcode Solutions to the the problems i solved
 | [0200-number-of-islands](https://github.com/iamAmanrajput/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/iamAmanrajput/LeetCode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0210-course-schedule-ii/) | Medium |
+| [0279-perfect-squares](https://github.com/iamAmanrajput/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
@@ -260,6 +261,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0204-count-primes](https://github.com/iamAmanrajput/LeetCode/tree/main/0204-count-primes/) | Medium |
+| [0279-perfect-squares](https://github.com/iamAmanrajput/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -268,6 +270,7 @@ Leetcode Solutions to the the problems i solved
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/iamAmanrajput/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
+| [0279-perfect-squares](https://github.com/iamAmanrajput/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
