@@ -98,6 +98,7 @@ Leetcode Solutions to the the problems i solved
 | [0704-binary-search](https://github.com/iamAmanrajput/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
+| [0983-minimum-cost-for-tickets](https://github.com/iamAmanrajput/LeetCode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [1306-jump-game-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
@@ -279,6 +280,7 @@ Leetcode Solutions to the the problems i solved
 | [0416-partition-equal-subset-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
+| [0983-minimum-cost-for-tickets](https://github.com/iamAmanrajput/LeetCode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
