@@ -79,6 +79,7 @@ Leetcode Solutions to the the problems i solved
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/iamAmanrajput/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
@@ -265,6 +266,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/iamAmanrajput/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/iamAmanrajput/LeetCode/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0322-coin-change](https://github.com/iamAmanrajput/LeetCode/tree/main/0322-coin-change/) | Medium |
