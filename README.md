@@ -179,6 +179,7 @@ Leetcode Solutions to the the problems i solved
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0354-russian-doll-envelopes](https://github.com/iamAmanrajput/LeetCode/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0367-valid-perfect-square](https://github.com/iamAmanrajput/LeetCode/tree/main/0367-valid-perfect-square/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -262,6 +263,7 @@ Leetcode Solutions to the the problems i solved
 | [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0204-count-primes](https://github.com/iamAmanrajput/LeetCode/tree/main/0204-count-primes/) | Medium |
 | [0279-perfect-squares](https://github.com/iamAmanrajput/LeetCode/tree/main/0279-perfect-squares/) | Medium |
+| [0367-valid-perfect-square](https://github.com/iamAmanrajput/LeetCode/tree/main/0367-valid-perfect-square/) | Easy |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
