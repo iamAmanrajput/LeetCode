@@ -1,38 +1,50 @@
 class Solution {
 public:
-    void mergeInPlace(vector<int>& nums, int start, int mid, int end) {
-        int total_len = end - start + 1;
-        int gap = total_len / 2 + total_len % 2; // ceil
+    void merge(vector<int>& nums, int s, int mid, int e, vector<int>& temp) {
+        int i = s;
+        int j = mid + 1;
+        int k = s;
 
-        while (gap > 0) {
-            int i = start, j = start + gap;
-            while (j <= end) {
-                if (nums[i] > nums[j]) {
-                    swap(nums[i], nums[j]);
-                }
-                i++;
-                j++;
+        while (i <= mid && j <= e) {
+            if (nums[i] <= nums[j]) {
+                temp[k++] = nums[i++];
+            } else {
+                temp[k++] = nums[j++];
             }
-            gap = gap <= 1 ? 0 : (gap / 2) + (gap % 2);
+        }
+
+        while (i <= mid) {
+            temp[k++] = nums[i++];
+        }
+
+        while (j <= e) {
+            temp[k++] = nums[j++];
+        }
+
+        // copy back
+        for (int idx = s; idx <= e; idx++) {
+            nums[idx] = temp[idx];
         }
     }
 
-    void mergeSort(vector<int>& nums, int start, int end) {
-        if (start >= end) {
-            return;
-        }
+    void mergeSort(vector<int>& nums, int s, int e, vector<int>& temp) {
+        if (s >= e) return;
 
-        int mid = start + (end - start) / 2;
+        int mid = s + (e - s) / 2;
 
-        mergeSort(nums, start, mid);
-        mergeSort(nums, mid + 1, end);
+        mergeSort(nums, s, mid, temp);
+        mergeSort(nums, mid + 1, e, temp);
 
-        mergeInPlace(nums, start, mid, end);
+        merge(nums, s, mid, e, temp);
     }
 
     vector<int> sortArray(vector<int>& nums) {
+        int n = nums.size();
 
-        mergeSort(nums, 0, nums.size() - 1);
+        vector<int> temp(n); // ek hi temp array bana rahe hain
+
+        mergeSort(nums, 0, n - 1, temp);
+
         return nums;
     }
 };
