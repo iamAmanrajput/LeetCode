@@ -131,6 +131,7 @@ Leetcode Solutions to the the problems i solved
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/iamAmanrajput/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/iamAmanrajput/LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -259,6 +260,7 @@ Leetcode Solutions to the the problems i solved
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
