@@ -132,6 +132,7 @@ Leetcode Solutions to the the problems i solved
 | [2784-check-if-array-is-good](https://github.com/iamAmanrajput/LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -261,6 +262,7 @@ Leetcode Solutions to the the problems i solved
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
