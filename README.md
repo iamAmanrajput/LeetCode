@@ -225,6 +225,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0177-nth-highest-salary](https://github.com/iamAmanrajput/LeetCode/tree/main/0177-nth-highest-salary/) | Medium |
+| [0181-employees-earning-more-than-their-managers](https://github.com/iamAmanrajput/LeetCode/tree/main/0181-employees-earning-more-than-their-managers/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
