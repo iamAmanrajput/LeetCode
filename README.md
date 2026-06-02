@@ -119,6 +119,7 @@ Leetcode Solutions to the the problems i solved
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/iamAmanrajput/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -179,6 +180,7 @@ Leetcode Solutions to the the problems i solved
 | [2126-destroying-asteroids](https://github.com/iamAmanrajput/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/iamAmanrajput/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/iamAmanrajput/LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -202,6 +204,7 @@ Leetcode Solutions to the the problems i solved
 | [0852-peak-index-in-a-mountain-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -212,6 +215,7 @@ Leetcode Solutions to the the problems i solved
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -245,6 +249,7 @@ Leetcode Solutions to the the problems i solved
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [2126-destroying-asteroids](https://github.com/iamAmanrajput/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/iamAmanrajput/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
