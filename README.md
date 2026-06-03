@@ -6,6 +6,7 @@ Leetcode Solutions to the the problems i solved
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/iamAmanrajput/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0051-n-queens](https://github.com/iamAmanrajput/LeetCode/tree/main/0051-n-queens/) | Hard |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 ## Tree
@@ -269,6 +270,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0006-zigzag-conversion](https://github.com/iamAmanrajput/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
 | [0014-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/0014-longest-common-prefix/) | Easy |
+| [0022-generate-parentheses](https://github.com/iamAmanrajput/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0796-rotate-string](https://github.com/iamAmanrajput/LeetCode/tree/main/0796-rotate-string/) | Easy |
@@ -299,6 +301,7 @@ Leetcode Solutions to the the problems i solved
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/iamAmanrajput/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
 | [0070-climbing-stairs](https://github.com/iamAmanrajput/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/iamAmanrajput/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/iamAmanrajput/LeetCode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
