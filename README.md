@@ -6,6 +6,7 @@ Leetcode Solutions to the the problems i solved
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0051-n-queens](https://github.com/iamAmanrajput/LeetCode/tree/main/0051-n-queens/) | Hard |
 | [0113-path-sum-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0113-path-sum-ii/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -77,6 +78,7 @@ Leetcode Solutions to the the problems i solved
 | [0033-search-in-rotated-sorted-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/iamAmanrajput/LeetCode/tree/main/0035-search-insert-position/) | Easy |
+| [0051-n-queens](https://github.com/iamAmanrajput/LeetCode/tree/main/0051-n-queens/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/iamAmanrajput/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
