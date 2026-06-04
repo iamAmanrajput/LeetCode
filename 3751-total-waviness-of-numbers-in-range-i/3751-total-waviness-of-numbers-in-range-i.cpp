@@ -1,60 +1,30 @@
 class Solution {
 public:
     bool isWaviness(int prevDig, int currDig, int nextDig) {
-        if (currDig > prevDig && currDig > nextDig) {
-            return true;
-        }
-        if (currDig < prevDig && currDig < nextDig) {
-            return true;
-        }
-        return false;
-    };
+        return (currDig > prevDig && currDig > nextDig) ||
+               (currDig < prevDig && currDig < nextDig);
+    }
 
     int totalWaviness(int num1, int num2) {
-        if (num1 < 100 && num2 < 100) {
-            return 0;
-        };
 
         int waviness = 0;
-        stack<int> st;
-        int cnt = 0;
-        int temp = num2;
 
-        while (temp) {
-            cnt++;
-            temp /= 10;
-        }
+        for (int num = num1; num <= num2; num++) {
 
-        vector<int> arr(cnt, -1);
+            string s = to_string(num);
 
-        for (int i = num1; i <= num2; i++) {
-            int digit = i;
-            while (digit) {
-                int lastDig = digit % 10;
-                st.push(lastDig);
-                digit = digit / 10;
-            }
-            int arrIndex = 0;
-            while (!st.empty()) {
-                int top = st.top();
-                arr[arrIndex] = top;
-                st.pop();
-                arrIndex++;
-            }
+            for (int i = 1; i < s.size() - 1; i++) {
 
-            int index = 1;
-            while (index < arr.size() - 1 && arr[index] != -1) {
+                int prev = s[i - 1] - '0';
+                int curr = s[i] - '0';
+                int next = s[i + 1] - '0';
 
-                if (arr[index + 1] == -1)
-                    break;
-
-                if (isWaviness(arr[index - 1], arr[index], arr[index + 1])) {
+                if (isWaviness(prev, curr, next)) {
                     waviness++;
                 }
-
-                index++;
             }
         }
+
         return waviness;
     }
 };
