@@ -304,6 +304,7 @@ Leetcode Solutions to the the problems i solved
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -324,6 +325,7 @@ Leetcode Solutions to the the problems i solved
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
