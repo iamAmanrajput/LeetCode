@@ -118,6 +118,7 @@ Leetcode Solutions to the the problems i solved
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [2126-destroying-asteroids](https://github.com/iamAmanrajput/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/iamAmanrajput/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2161-partition-array-according-to-given-pivot](https://github.com/iamAmanrajput/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/iamAmanrajput/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/iamAmanrajput/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
@@ -225,6 +226,7 @@ Leetcode Solutions to the the problems i solved
 | [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
+| [2161-partition-array-according-to-given-pivot](https://github.com/iamAmanrajput/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
@@ -379,6 +381,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [1929-concatenation-of-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
+| [2161-partition-array-according-to-given-pivot](https://github.com/iamAmanrajput/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
