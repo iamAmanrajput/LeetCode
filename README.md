@@ -234,6 +234,7 @@ Leetcode Solutions to the the problems i solved
 | [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/iamAmanrajput/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -261,6 +262,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -387,6 +389,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/0496-next-greater-element-i/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/iamAmanrajput/LeetCode/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
