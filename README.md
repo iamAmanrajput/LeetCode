@@ -233,6 +233,7 @@ Leetcode Solutions to the the problems i solved
 | [0295-find-median-from-data-stream](https://github.com/iamAmanrajput/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0532-k-diff-pairs-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/iamAmanrajput/LeetCode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/iamAmanrajput/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
@@ -262,6 +263,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/iamAmanrajput/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
