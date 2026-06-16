@@ -2,17 +2,21 @@ class Solution {
 public:
     string processStr(string s) {
         string result = "";
-        for(int i = 0; i<s.size();i++){
-            if(isalpha(s[i])){
-                result.push_back(s[i]);
-            }else if(s[i] == '*'){
-                if(result.size() >= 1){
+
+        for (char c : s) {
+            if (c >= 'a' && c <= 'z') {
+                result.push_back(c);
+            }
+            else if (c == '*') {
+                if (!result.empty()) {
                     result.pop_back();
                 }
-            }else if(s[i] == '#'){
-                result = result + result;
-            }else{
-                reverse(result.begin(),result.end());
+            }
+            else if (c == '#') {
+                result += result;
+            }
+            else if (c == '%') {
+                reverse(result.begin(), result.end());
             }
         }
 
