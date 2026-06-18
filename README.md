@@ -327,6 +327,7 @@ Leetcode Solutions to the the problems i solved
 | [0279-perfect-squares](https://github.com/iamAmanrajput/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0367-valid-perfect-square](https://github.com/iamAmanrajput/LeetCode/tree/main/0367-valid-perfect-square/) | Easy |
 | [0509-fibonacci-number](https://github.com/iamAmanrajput/LeetCode/tree/main/0509-fibonacci-number/) | Easy |
+| [1344-angle-between-hands-of-a-clock](https://github.com/iamAmanrajput/LeetCode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
