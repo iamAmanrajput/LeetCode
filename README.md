@@ -117,6 +117,7 @@ Leetcode Solutions to the the problems i solved
 | [1470-shuffle-the-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
+| [1732-find-the-highest-altitude](https://github.com/iamAmanrajput/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/iamAmanrajput/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1929-concatenation-of-array](https://github.com/iamAmanrajput/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
@@ -388,6 +389,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/iamAmanrajput/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/iamAmanrajput/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
