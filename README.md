@@ -362,6 +362,7 @@ Leetcode Solutions to the the problems i solved
 | [1155-number-of-dice-rolls-with-target-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/iamAmanrajput/LeetCode/tree/main/1691-maximum-height-by-stacking-cuboids/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
+| [3699-number-of-zigzag-arrays-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 ## Recursion
@@ -399,6 +400,7 @@ Leetcode Solutions to the the problems i solved
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/iamAmanrajput/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/iamAmanrajput/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
+| [3699-number-of-zigzag-arrays-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
