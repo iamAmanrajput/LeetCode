@@ -139,6 +139,7 @@ Leetcode Solutions to the the problems i solved
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3689-maximum-total-subarray-value-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/iamAmanrajput/LeetCode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -160,6 +161,7 @@ Leetcode Solutions to the the problems i solved
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -169,6 +171,7 @@ Leetcode Solutions to the the problems i solved
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0912-sort-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0912-sort-an-array/) | Medium |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -277,6 +280,7 @@ Leetcode Solutions to the the problems i solved
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0912-sort-an-array/) | Medium |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -405,6 +409,7 @@ Leetcode Solutions to the the problems i solved
 | [1732-find-the-highest-altitude](https://github.com/iamAmanrajput/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/iamAmanrajput/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [3699-number-of-zigzag-arrays-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -456,8 +461,10 @@ Leetcode Solutions to the the problems i solved
 | [0912-sort-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/iamAmanrajput/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1833-maximum-ice-cream-bars](https://github.com/iamAmanrajput/LeetCode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3691-maximum-total-subarray-value-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 <!---LeetCode Topics End-->
