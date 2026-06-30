@@ -157,6 +157,7 @@ Leetcode Solutions to the the problems i solved
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/iamAmanrajput/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1189-maximum-number-of-balloons](https://github.com/iamAmanrajput/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/iamAmanrajput/LeetCode/tree/main/1345-jump-game-iv/) | Hard |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/iamAmanrajput/LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/iamAmanrajput/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/iamAmanrajput/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/iamAmanrajput/LeetCode/tree/main/2540-minimum-common-value/) | Easy |
@@ -306,6 +307,7 @@ Leetcode Solutions to the the problems i solved
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/iamAmanrajput/LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -327,6 +329,7 @@ Leetcode Solutions to the the problems i solved
 | [1143-longest-common-subsequence](https://github.com/iamAmanrajput/LeetCode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/iamAmanrajput/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/iamAmanrajput/LeetCode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/iamAmanrajput/LeetCode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2109-adding-spaces-to-a-string](https://github.com/iamAmanrajput/LeetCode/tree/main/2109-adding-spaces-to-a-string/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
