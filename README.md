@@ -136,6 +136,7 @@ Leetcode Solutions to the the problems i solved
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/iamAmanrajput/LeetCode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/iamAmanrajput/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/iamAmanrajput/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/iamAmanrajput/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -198,6 +199,7 @@ Leetcode Solutions to the the problems i solved
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1306-jump-game-iii](https://github.com/iamAmanrajput/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/iamAmanrajput/LeetCode/tree/main/1345-jump-game-iv/) | Hard |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -267,6 +269,7 @@ Leetcode Solutions to the the problems i solved
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/iamAmanrajput/LeetCode/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/iamAmanrajput/LeetCode/tree/main/0912-sort-an-array/) | Medium |
 | [1268-search-suggestions-system](https://github.com/iamAmanrajput/LeetCode/tree/main/1268-search-suggestions-system/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 ## Quickselect
 | Problem Name | Difficulty |
@@ -406,11 +409,13 @@ Leetcode Solutions to the the problems i solved
 | [0200-number-of-islands](https://github.com/iamAmanrajput/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0733-flood-fill](https://github.com/iamAmanrajput/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/iamAmanrajput/LeetCode/tree/main/0994-rotting-oranges/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/iamAmanrajput/LeetCode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/0210-course-schedule-ii/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -484,4 +489,8 @@ Leetcode Solutions to the the problems i solved
 | [3691-maximum-total-subarray-value-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/iamAmanrajput/LeetCode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/iamAmanrajput/LeetCode/tree/main/3739-count-subarrays-with-majority-element-ii/) | Hard |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/iamAmanrajput/LeetCode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 <!---LeetCode Topics End-->
